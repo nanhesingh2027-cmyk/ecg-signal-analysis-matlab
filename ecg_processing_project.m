@@ -25,15 +25,23 @@ figure
 subplot(4,1,1)
 plot(time,ecg_signal)
 title('Original ECG Signal')
+xlabel('Time (seconds)')
+ylabel('Amplitude')
 
 subplot(4,1,2)
 plot(time,noisy_signal)
 title('ECG with Noise')
+xlabel('Time (seconds)')
+ylabel('Amplitude')
 
 subplot(4,1,3)
 plot(time,filtered_signal)
 title('After Butterworth Filter')
+xlabel('Time (seconds)')
+ylabel('Amplitude')
 
 subplot(4,1,4)
 plot(time,smooth_signal)
 title('After Moving Average Smoothing')
+xlabel('Time (seconds)')
+ylabel('Amplitude')
