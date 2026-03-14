@@ -4,4 +4,4 @@ ECG signal processing using MATLAB including noise reduction, baseline drift cor
 
 ## Output
 
-![ECG Output](ecg_output.png)
+![ECG Output](ecg_processing_waveforms.png)
